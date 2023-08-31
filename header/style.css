@@ -1,0 +1,36 @@
+body {
+    background-color: whitesmoke;
+}
+
+header nav  {
+    background-color: #333;
+    padding: 16px;
+}
+
+.navbar  {
+    background-color: #333;
+    padding: 16px;
+}
+
+/* combination of selectors
+    - descendent selctor
+*/
+
+
+/* header nav a{ */
+.navbar a {
+    color: white;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 18px;
+} 
+
+img{
+    width: 100%;
+}
+.technology {
+    width: 200px;
+    border: 1px solid;
+    display: inline-block;
+    text-align: center;
+}

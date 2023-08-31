@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            /* background-color: rgba(255,0,0,0.05); */
+            /* margin:0; */
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            padding: 1rem;
+            border: 1px solid;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        header ul {
+            display: flex;
+            list-style: none;
+            gap: 1rem;
+        }
+
+        p {
+            width: 100px;
+        }
+
+        .box {
+            height: 100px;
+            width: 100px;
+            border: 1px solid;
+        }
+
+        .static {
+            position: static;
+        }
+
+        .relative {
+            position: relative;
+            left: 100px;
+            /* margin-left:100px; */
+            top: 50px;
+        }
+
+        .absolute {
+            position: absolute;
+            right: 0;
+            top: 0;
+            background-color: red;
+        }
+
+        .fixed {
+            background-color: orange;
+            position: fixed;
+            bottom: 100px;
+            right: 100px;
+        }
+
+        .sticky {
+            position: sticky;
+            top: 200px;
+            background-color: teal;
+        }
+
+        header{
+            position: sticky;
+            top: 0px;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <header>
+        <p>logo</p>
+        <ul>
+            <li><a href="#">home</a></li>
+            <li><a href="#">about</a></li>
+        </ul>
+        <ul>
+            <li>register</li>
+            <li>login</li>
+        </ul>
+    </header>
+
+    <h1>css positions</h1>
+
+    <div class="box static">static</div>
+    <div class="box relative">relative : maintains its original dom position</div>
+    <div class="box absolute">absolute</div>
+    <div class="box fixed">fixed</div>
+    <div class="box sticky">stickty</div>
+
+
+
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum assumenda eius ut ipsa, quo corrupti modi
+        magnam cupiditate explicabo, iste ab repellat reprehenderit nostrum rem error ipsam unde eaque expedita?</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum assumenda eius ut ipsa, quo corrupti modi
+        magnam cupiditate explicabo, iste ab repellat reprehenderit nostrum rem error ipsam unde eaque expedita?</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum assumenda eius ut ipsa, quo corrupti modi
+        magnam cupiditate explicabo, iste ab repellat reprehenderit nostrum rem error ipsam unde eaque expedita?</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum assumenda eius ut ipsa, quo corrupti modi
+        magnam cupiditate explicabo, iste ab repellat reprehenderit nostrum rem error ipsam unde eaque expedita?</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum assumenda eius ut ipsa, quo corrupti modi
+        magnam cupiditate explicabo, iste ab repellat reprehenderit nostrum rem error ipsam unde eaque expedita?</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum assumenda eius ut ipsa, quo corrupti modi
+        magnam cupiditate explicabo, iste ab repellat reprehenderit nostrum rem error ipsam unde eaque expedita?</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum assumenda eius ut ipsa, quo corrupti modi
+        magnam cupiditate explicabo, iste ab repellat reprehenderit nostrum rem error ipsam unde eaque expedita?</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum assumenda eius ut ipsa, quo corrupti modi
+        magnam cupiditate explicabo, iste ab repellat reprehenderit nostrum rem error ipsam unde eaque expedita?</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum assumenda eius ut ipsa, quo corrupti modi
+        magnam cupiditate explicabo, iste ab repellat reprehenderit nostrum rem error ipsam unde eaque expedita?</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum assumenda eius ut ipsa, quo corrupti modi
+        magnam cupiditate explicabo, iste ab repellat reprehenderit nostrum rem error ipsam unde eaque expedita?</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum assumenda eius ut ipsa, quo corrupti modi
+        magnam cupiditate explicabo, iste ab repellat reprehenderit nostrum rem error ipsam unde eaque expedita?</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laborum assumenda eius ut ipsa, quo corrupti modi
+        magnam cupiditate explicabo, iste ab repellat reprehenderit nostrum rem error ipsam unde eaque expedita?</p>
+
+
+</body>
+
+</html>

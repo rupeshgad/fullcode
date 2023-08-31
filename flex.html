@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        /* css reset */
+        *{
+            margin:0;
+            padding:0;
+            box-sizing: border-box;
+        }
+        ul {
+            list-style: none;
+        }
+        a{
+            color: inherit;
+            text-decoration: none;
+        }
+
+
+
+
+        ul {
+            border: 1px solid;
+            display: flex;
+            gap:1rem;
+            /* justify-content: end; */
+            justify-content: center;
+            align-items: center;
+            height: 50px;
+        }
+        /* li{
+            border: 1px solid;
+            padding:1rem
+        } */
+
+        .flexbox{
+            background-color: antiquewhite;
+            height: 350px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            justify-content: center;
+            gap: 1rem;
+          
+        }
+
+        .flex-item{
+            height: 100px;
+            width: 100px;
+            border: 1px solid;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">home</a></li>
+                <li><a href="#">about</a></li>
+                <li><a href="#">contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <hr>
+
+    <!-- .one.two*3>{item-$} -->
+
+    <div class="one two">item-1</div>
+    <div class="one two">item-2</div>
+    <div class="one two">item-3</div>
+
+    
+    <div class="parent flexbox">
+        <div class="child flex-item">flex-item-1</div>
+        <div class="child flex-item">flex-item-2</div>
+        <div class="child flex-item">flex-item-3</div>
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+</body>
+
+</html>
