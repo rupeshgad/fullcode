@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            background-color: white;
+            margin: 0;
+            box-sizing: border-box;
+
+        }
+        header{
+            border: 1px sloid black;
+            display: flex;
+            padding: 1rem;
+            justify-content: space-between;
+        }
+        header ul{
+            display: flex;
+            list-style: none;
+            gap: 1rem;
+             
+        }
+        p{
+            width: 100px;
+        }
+        .box{
+            height: 100px;
+            width: 100px;
+            border: 1px solid;
+        }
+        .static{
+            position: static;
+        }
+        .relative{
+            position: absolute;
+            /*left: 100px;*/
+            top: 100px;
+        }
+        .absolute{
+            position: absolute;
+            right: 0px;
+            top: 0;
+            background-color: red;
+            left: 254px;
+        }
+        .fixed{
+            position: fixed;
+            background-color: blue;
+            bottom: 100px;
+            right: 100px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <p>logo
+        </p>
+        <ul>
+            <li><a href="#">home</li></ul</a>
+            <li><a href="#">about</a></li>
+        </ul>
+        <ul>
+            <li>register</li>
+            <li>login</li>
+        </ul>
+    </header>
+    <h1>CSS POSITION</h1>
+    <div class="box static">static</div>
+    <div class="box relative">relative</div>
+    <div class="box absolute">absolute</div>
+    <div class="box fixed">fixed</div>
+    <div class="box sticky">sticky</div>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam quis natus, vel, ut placeat esse neque perferendis adipisci repudiandae quidem delectus quam sit voluptatem temporibus eum. Sapiente quasi laudantium laborum.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit temporibus facere dolores labore laboriosam! Sequi, iure. Doloribus quis saepe iste tempora assumenda unde ullam, alias impedit consequatur, enim ab cumque.</p>
+</body>
+</html>
